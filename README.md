@@ -5,5 +5,6 @@ Used technologies in this mini-project:
 2)Hilt as DI
 3)Kotlin Coroutines for asynchronous work
 4)MVVM architecture + CA(clean architecture)
-5)List adapter 
+5)Navigation Component
+6)List adapter 
 
