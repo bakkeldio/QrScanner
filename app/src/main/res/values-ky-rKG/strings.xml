@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="age">Жашы: </string>
+    <string name="do_scan">Сканды башта</string>
+    <string name="list">Тизме</string>
+    <string name="scanner">Сканер</string>
+    <string name="Detail">Маалымат</string>
+    <string name="qr_scanner">Сканер</string>
+    <string name="detail">Инфо</string>
+    <string name="prompt">Штрих-кодду өткөзүү үчүн аны төрт бурчтуктун ичине алыңыз</string>
+    <string name="name">Аты: </string>
+    <string name="russian">Орус тили</string>
+    <string name="kyrgyz">Кыргыз тили</string>
+    <string name="chooseLang">Тилди танданыз</string>
+    <string name="next">Кийинки</string>
+    <string name="List">Тизме</string>
+    <string name="first_scan_the_qr">Биринчи штрих-кодду өткөзүңүз!</string>
+
+
+</resources>

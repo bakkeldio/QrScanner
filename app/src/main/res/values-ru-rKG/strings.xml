@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QrScanner</string>
+    <string name="age">Возраст: </string>
+    <string name="do_scan">Начать сканирование</string>
+    <string name="list">Список</string>
+    <string name="name">Имя: </string>
+    <string name="Detail">Информация</string>
+    <string name="russian">Русский</string>
+    <string name="kyrgyz">Кыргызский</string>
+    <string name="chooseLang">Выберите язык:</string>
+    <string name="prompt">Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя</string>
+    <string name="next">Далее</string>
+    <string name="scanner">Сканер</string>
+    <string name="List">Список</string>
+    <string name="qr_scanner">Сканер</string>
+    <string name="detail">Инфо</string>
+    <string name="first_scan_the_qr">Сперва просканируйте штрих-код!</string>
+
+
+
+
+</resources>

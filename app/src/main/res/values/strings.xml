@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">QrScanner</string>
+    <string name="qr_scanner">Scanner</string>
+    <string name="scanner">Scanner</string>
+    <string name="Detail">Detail</string>
+    <string name="prompt">You should put qr image into the camera!</string>
+    <string name="List">List of qr</string>
+    <string name="age">Age: </string>
+    <string name="email" translatable="false">Email:</string>
+    <string name="do_scan">Make scan</string>
+    <string name="list">List</string>
+    <string name="russian">Русский</string>
+    <string name="kyrgyz">Кыргызский</string>
+    <string name="detail">Info</string>
+    <string name="name">Name:</string>
+    <string name="chooseLang">Выберите язык:</string>
+    <string name="next">Далее</string>
+    <string name="first_scan_the_qr">First scan the qr!</string>
+    <string name="defaultemail" translatable="false">example@gmail.com</string>
+    <string name="defaultname" translatable="false">Example</string>
+
+</resources>
