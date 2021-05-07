@@ -1,5 +1,6 @@
 # QrScanner
 It is QrScanner app which can scan qr codes. It uses one of the popular libraries for scanning qr codes as zxing. 
+Which is compatible in older version of android devices too.
 It supports two languages: Kyrgyz and Russian
 Used technologies in this mini-project:
 1)Zxing library for scanning
