@@ -5,11 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.example.qrscanner.R
 import com.example.qrscanner.databinding.QrScannerBinding
 import com.example.qrscanner.domain.model.QrModel
+import com.example.qrscanner.presentation.activity.MainActivity
 import com.example.qrscanner.presentation.viewModel.QrViewModel
 import com.google.gson.Gson
 import com.google.zxing.integration.android.IntentIntegrator
@@ -45,6 +47,7 @@ class QrScanner : Fragment() {
         qrScanIntegrator?.setOrientationLocked(false)
         qrScanIntegrator?.setPrompt(requireContext().getString(R.string.prompt))
         qrScanIntegrator?.captureActivity = CaptureActivity::class.java
+        qrScanIntegrator?.setBeepEnabled(false)
         binding.makeScan.setOnClickListener {
             qrScanIntegrator?.initiateScan()
         }
@@ -54,9 +57,11 @@ class QrScanner : Fragment() {
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
         if (result != null) {
 
+            val activity = activity as MainActivity
             val model = Gson().fromJson(result.contents, QrModel::class.java)
             viewModel.sendScannedQr(model)
             viewModel.insertQrToDb(model)
+            activity.onBottomClick()
 
         }else{
             super.onActivityResult(requestCode,resultCode,data)

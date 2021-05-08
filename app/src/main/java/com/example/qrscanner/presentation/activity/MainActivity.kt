@@ -61,4 +61,8 @@ class MainActivity : AppCompatActivity(){
     override fun onSupportNavigateUp(): Boolean {
         return currentNavController?.value?.navigateUp() ?: false
     }
+
+    fun onBottomClick(){
+        binding.bottomNav.selectedItemId = R.id.qr_detail
+    }
 }
